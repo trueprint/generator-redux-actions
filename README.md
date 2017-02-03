@@ -22,7 +22,7 @@ $ npm i generator-redux-actions
 ## Creating a module
 
 ```
-$ yo redux-actions todos --async-actions=true  # create thunks for your actions; need redux-thunk for this!
+$ yo @arivale/redux-actions todos --async-actions=true  # create thunks for your actions; need redux-thunk for this!
 ```
 
 ## License

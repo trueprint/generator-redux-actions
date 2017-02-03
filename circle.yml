@@ -1,0 +1,15 @@
+
+machine:
+  node:
+    version: 7.4
+
+dependencies:
+  override:
+    - echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
+    - npm install
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - npm run push-npm
