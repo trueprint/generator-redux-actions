@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/trueprint/generator-redux-actions.svg?style=shield&circle-token=7a8831f66101d9de0ad55b48eb7f3b6ef163727e)](https://circleci.com/gh/trueprint/generator-redux-actions)
+
 # generator-redux-actions
 
 > Compose large Redux apps with small Redux modules
